@@ -19,15 +19,8 @@ npm run build-prod
 To create a development build:
 
 ```sh
-npm run build-dev
+npm start
 ```
-
-## Running
-
-```sh
-node dist/bundle.js
-```
-
 ## Credits
 
-Made with [createapp.dev](https://createapp.dev/)
+Made with [meXuvo](https://www.linkedin.com/in/meXuvo)
