@@ -1,0 +1,29 @@
+{
+  "name": "webpack-boiler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "clean": "rm dist/bundle.js",
+    "start": "webpack -d --mode development",
+    "build-prod": "webpack -p --mode production"
+  },
+  "dependencies": {
+    "tailwindcss": "^1.8.10"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.0.1",
+    "css-loader": "^4.3.0",
+    "html-webpack-plugin": "^4.5.0",
+    "node-sass": "^4.14.1",
+    "postcss": "^8.1.1",
+    "postcss-loader": "^4.0.3",
+    "sass-loader": "^10.0.2",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  }
+}
