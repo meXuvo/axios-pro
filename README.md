@@ -1,9 +1,4 @@
-# webpack-boiler
-
-Empty project.
-
-## Building and running on localhost
-
+# webpack-boiler(empty project)
 First install dependencies:
 
 ```sh
