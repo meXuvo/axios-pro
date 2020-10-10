@@ -1,4 +1,4 @@
-# webpack-boiler(empty project)
+# webpack-boiler(simple ajax project)
 First install dependencies:
 
 ```sh
