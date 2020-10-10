@@ -1,44 +1,33 @@
-const webpack = require('webpack');
-const path = require('path');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
+const webpack = require("webpack");
+const path = require("path");
 
 const config = {
-  entry: './src/index.js',
+  entry: "./src/index.js",
   output: {
-    path: path.resolve(__dirname, 'dist'),
-    filename: 'bundle.js'
+    path: path.resolve(__dirname, "dist"),
+    filename: "bundle.js",
   },
   module: {
     rules: [
       {
         test: /\.css$/,
         use: [
-          'style-loader',
+          "style-loader",
           {
-            loader: 'css-loader',
+            loader: "css-loader",
             options: {
-              importLoaders: 1
-            }
+              importLoaders: 1,
+            },
           },
-          'postcss-loader'
-        ]
+          "postcss-loader",
+        ],
       },
       {
         test: /\.scss$/,
-        use: [
-          'style-loader',
-          'css-loader',
-          'sass-loader'
-        ]
-      }
-    ]
+        use: ["style-loader", "css-loader", "sass-loader"],
+      },
+    ],
   },
-  plugins: [
-    new HtmlWebpackPlugin({
-      appMountId: 'app',
-      filename: 'index.html'
-    })
-  ]
 };
 
 module.exports = config;

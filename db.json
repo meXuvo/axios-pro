@@ -1,0 +1,40 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": [
+    {
+      "name": "Alice",
+      "phone": "098765345678",
+      "email": "cse@suvo.com",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "userId": 102,
+      "name": "Bob"
+    },
+    {
+      "id": 3,
+      "userId": 103,
+      "name": "Carol"
+    },
+    {
+      "name": "suvo",
+      "phone": "01792166627",
+      "email": "suvo.kodeeo@gmail.com",
+      "id": 5
+    }
+  ]
+}
